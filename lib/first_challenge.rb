@@ -16,8 +16,8 @@ def first_challenge
   contacts.each {|x,y|
   if x == "Freddy Mercury"
     y.each {|x,y|
-    if x == :favorite_icecream_flavors && x.include?("strawberry")
-      x.delete("strawberry")
+    if x == :favorite_icecream_flavors && y.include?("strawberry")
+      y.delete("strawberry")
     end
     }
   end
