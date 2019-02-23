@@ -18,6 +18,8 @@ def first_challenge
     y.each {|x,y|
     if x == :favorite_icecream_flavors && y.include?("strawberry")
       y.delete("strawberry")
+    else
+      puts "Hey! I thought strawberry was one of your faves!"
     end
     }
   end
