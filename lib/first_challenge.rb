@@ -15,7 +15,8 @@ def first_challenge
 
   #your code here
   contacts.each {|x,y|
-  binding
+  binding.pry
+  }
     
 
   #remember to return your newly altered contacts hash!
