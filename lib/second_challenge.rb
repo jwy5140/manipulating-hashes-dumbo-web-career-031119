@@ -8,6 +8,7 @@ def second_challenge
 
   #code your solution here!
 
-  
+  arr = groceries.values
+  binding.pry
 
 end
